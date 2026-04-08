@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: rgb(99, 103, 104);
+    padding: 20px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+button {
+ margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button.addTask {
+    background-color: rgb(124, 231, 160);
+    color: rgb(24, 24, 24);
+    border: none;
+}
+button.clearAll {
+    background-color: rgb(214, 208, 208);
+    color: rgb(24, 24, 24);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
